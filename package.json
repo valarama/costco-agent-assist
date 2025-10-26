@@ -1,0 +1,17 @@
+{
+  "name": "costco-agent-assist-pro",
+  "version": "1.0.0",
+  "description": "Professional Agent Assist for Costco Smart Appliance Support",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8080"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@google-cloud/storage": "^7.7.0",
+    "@google-cloud/vertexai": "^1.4.0"
+  }
+}
